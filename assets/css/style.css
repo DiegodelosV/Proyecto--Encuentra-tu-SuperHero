@@ -1,0 +1,85 @@
+/* estilos base y reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* estilos header */
+header p {
+    font-family: "Bangers", sans-serif;
+
+}
+
+/* estilos nav */
+nav img {
+    width: 10%;
+
+}
+
+nav a {
+    font-family: "Bangers", sans-serif;
+    font-weight: 100;
+}
+
+
+/* estilos form de ingreso */
+form {
+    font-family: "Bangers", sans-serif;
+
+}
+
+.input-group {
+    max-width: 400px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+/* estilos section main */
+main .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main #title {
+    font-family: "Bangers", sans-serif;
+}
+
+#hero-section {
+    height: 300px;
+
+}
+
+/* estilo para aparicion de imagen */
+#imagen-hero {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/* estilos footer */
+
+footer {
+    padding: 3px;
+    background-color: #443838;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(224, 176, 176);
+    font-weight: bold;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(224, 176, 176);
+}
